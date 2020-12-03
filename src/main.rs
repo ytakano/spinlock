@@ -79,7 +79,7 @@ fn main() {
     }
 
     println!(
-        "CPIMT = {} (expected = {})",
+        "COUNT = {} (expected = {})",
         *lock.lock(),
         NUM_LOOP * NUM_THREADS
     );
